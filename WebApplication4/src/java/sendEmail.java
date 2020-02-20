@@ -41,7 +41,7 @@ public class sendEmail extends HttpServlet {
      {
          EmailSender es = new EmailSender();
          
-         es.sendMail("anne.kedia7@gmail.com","Anne&Kedia07","anne.kedia7@gmail.com",rs.getString(3),"BYE","Gooooooooooood NIghttttttttttttt");
+         es.sendMail("anne.kedia7@gmail.com","########","anne.kedia7@gmail.com",rs.getString(3),"BYE","Gooooooooooood NIghttttttttttttt");
      }
      
      con.close();
